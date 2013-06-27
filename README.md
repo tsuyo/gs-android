@@ -16,7 +16,7 @@ What you'll need
 
 
 <a name="android-dev-env"></a>
-Install the Android development environment
+Set up the Android development environment
 ----------------------------------------------
 
 Building Android applications requires you to install the [Android SDK][sdk]. Installing the Android SDK also installs the AVD Manager, which provides a graphical user interface for creating and managing Android Virtual Devices (AVDs). 
