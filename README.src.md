@@ -73,10 +73,10 @@ The [Android SDK][sdk] download does not include specific Android platforms. To 
     > **Note:** You may want to install all the available updates, but be aware it will take longer, as each API level is a large download.
 
 <a name="android-virtual-device"></a>
-Android virtual device
-----------------------
+If necessary, create an Android virtual device
+----------------------------------------------
 
-If you do not have an Android device for testing, you can use an [Android Virtual Device (AVD)][avd]. To do this, you must first install the Android SDK and install the corresponding SDK platforms and packages. See [Set up the Android Development Environment](#android-dev-env).
+If you do not have an Android device for testing, you can use an Android virtual device.To do this, you must first install the Android SDK and install the corresponding SDK platforms and packages. See [Set up the Android development environment](#android-dev-env).
 
 ### Create an AVD
 
@@ -94,7 +94,7 @@ Here is more information about some of the parameters used:
  - `--target` Target ID of the new AVD.
  - `--abi` The ABI to use for the AVD.
 
-This command displays a list of the available targets. These can be used to create different AVD's based on different Android versions.
+This command displays a list of available targets. Use these targets to create different AVDs based on different Android versions as appropriate.
 
 ```sh
 $ android list target
@@ -112,13 +112,13 @@ API level: 17
     ABIs : armeabi-v7a, mips, x86
 ```
 
-Lastly, you can view the list of available AVD's with this command:
+View the list of available AVDs with this command:
 
 ```sh
 $ android list avd
 ```
 
-You can see the AVD that was just created:
+Here is the AVD that was just created:
 
 ```sh
   Name: Default
