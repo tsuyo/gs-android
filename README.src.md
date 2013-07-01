@@ -86,6 +86,48 @@ This command creates a new AVD named "Default" that is based on Android 4.2.2, A
 $ android create avd --name Default --target 29 --abi armeabi-v7a
 ```
 
+As an alternative you may also use the android GUI tool to create an AVD.
+
+Here is more information about some of the parameters used:
+
+ - '--name' Name of the new AVD.
+ - '--target' Target ID of the new AVD.
+ - '--abi' The ABI to use for the AVD.
+
+This command displays a list of the available targets. These can be used to create different AVD's based on different Android versions.
+
+```sh
+$ android list target
+```
+
+You can see that the target value of "29" is associated with Android 4.2.2.
+
+```sh
+       id: 29 or "android-17"
+     Name: Android 4.2.2
+     Type: Platform
+API level: 17
+ Revision: 2
+    Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+    ABIs : armeabi-v7a, mips, x86
+```
+
+Lastly, you can view the list of available AVD's with this command:
+
+```sh
+$ android list avd
+```
+
+You can see the AVD that was just created:
+
+```sh
+  Name: Default
+  Path: /Users/{user}/.android/avd/Default.avd
+Target: Android 4.2.2 (API level 17)
+   ABI: x86
+  Skin: 480x800
+```
+
 ### Start the AVD
 
 Verify that the AVD is working:
