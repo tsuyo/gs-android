@@ -92,7 +92,7 @@ Here is more information about some of the parameters used:
 
  - `--name` Name of the new AVD.
  - `--target` Target ID of the new AVD.
- - `--abi` The ABI to use for the AVD.
+ - `--abi` The CPU/ABI to use for the AVD.
 
 This command displays a list of available targets. Use these targets to create different AVDs based on different Android versions as appropriate.
 
@@ -100,7 +100,7 @@ This command displays a list of available targets. Use these targets to create d
 $ android list target
 ```
 
-You can see that the target value of "29" is associated with Android 4.2.2.
+You can see that the target value of "29" is associated with Android 4.2.2. Note the three ABIs (CPUs) available for this target ID. The command used earlier to create the AVD specified an ARM CPU.
 
 ```sh
        id: 29 or "android-17"
@@ -124,8 +124,8 @@ Here is the AVD that was just created:
   Name: Default
   Path: /Users/{user}/.android/avd/Default.avd
 Target: Android 4.2.2 (API level 17)
-   ABI: x86
-  Skin: 480x800
+   ABI: armeabi-v7a
+  Skin: WVGA800
 ```
 
 ### Start the AVD
