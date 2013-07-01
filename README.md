@@ -90,9 +90,9 @@ As an alternative you may also use the android GUI tool to create an AVD.
 
 Here is more information about some of the parameters used:
 
- - '--name' Name of the new AVD.
- - '--target' Target ID of the new AVD.
- - '--abi' The ABI to use for the AVD.
+ - `--name` Name of the new AVD.
+ - `--target` Target ID of the new AVD.
+ - `--abi` The ABI to use for the AVD.
 
 This command displays a list of the available targets. These can be used to create different AVD's based on different Android versions.
 
