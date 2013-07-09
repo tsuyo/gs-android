@@ -50,6 +50,7 @@ Before you can build Android applications, you must install the Android SDK. Ins
     set ANDROID_HOME=C:\<installation location>\android-sdk-windows
     set PATH=%PATH%;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools
     ```
+    
 
 ### Install Android SDK platforms and packages
 

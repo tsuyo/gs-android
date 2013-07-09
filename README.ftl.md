@@ -31,6 +31,7 @@ Before you can build Android applications, you must install the Android SDK. Ins
 
 3. Configure the `ANDROID_HOME` environment variable based on the location of the Android SDK. Additionally, consider adding `ANDROID_HOME/tools`, and  `ANDROID_HOME/platform-tools` to your PATH.
 
+<#noparse>
     Mac OS X:
 
     ```sh
@@ -51,6 +52,8 @@ Before you can build Android applications, you must install the Android SDK. Ins
     set ANDROID_HOME=C:\<installation location>\android-sdk-windows
     set PATH=%PATH%;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools
     ```
+    
+</#noparse>
 
 ### Install Android SDK platforms and packages
 
