@@ -1,3 +1,4 @@
+<#assign project_id="gs-android">
 
 # Getting Started: Installing the Android Development Environment
 
