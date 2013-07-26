@@ -1,6 +1,4 @@
 
-# Getting Started: Installing the Android Development Environment
-
 What you'll build
 -----------------
 
