@@ -10,11 +10,11 @@ Setting up the Android development environment is just one facet of the Android 
 * [Building Android Applications with Maven][gs-maven-android]
 * [Building Android Applications with Gradle][gs-gradle-android]
 
-[gs-consuming-rest-android]: /guides/gs/consuming-rest-android/content
-[gs-consuming-rest-xml-android]: /guides/gs/consuming-rest-xml-android/content
-[gs-device-detection]: /guides/gs/device-detection/content
-[gs-maven-android]: /guides/gs/maven-android/content
-[gs-gradle-android]: /guides/gs/gradle-android/content
+[gs-consuming-rest-android]: /guides/gs/consuming-rest-android/
+[gs-consuming-rest-xml-android]: /guides/gs/consuming-rest-xml-android/
+[gs-device-detection]: /guides/gs/device-detection/
+[gs-maven-android]: /guides/gs/maven-android/
+[gs-gradle-android]: /guides/gs/gradle-android/
 
 ### Tutorials
 
