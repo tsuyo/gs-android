@@ -1,9 +1,10 @@
 <#assign project_id="gs-android">
+This guide describes how to install the Android developer environment.
 
 What you'll build
 -----------------
 
-This guide describes how to install the Android developer environment.
+You'll learn how to install the tools needed to build Android applications.
 
 What you'll need
 ----------------
