@@ -4,7 +4,7 @@ This guide describes how to install the Android developer environment.
 What you'll build
 -----------------
 
-You'll learn how to install the tools needed to build Android applications.
+You'll learn how to install the tools needed to build Android applications. If necessary, you'll create an Android virtual device (AVD).
 
 What you'll need
 ----------------
@@ -56,7 +56,7 @@ Before you can build Android applications, you must install the Android SDK. Ins
 
 ### Install Android SDK platforms and packages
 
-The [Android SDK][sdk] download does not include specific Android platforms. To run the code in this guide, you need to download and install the latest SDK Platform. You do this by using the Android SDK and AVD Manager that you installed in the previous section.
+The Android SDK download does not include specific Android platforms. To run the code in this guide, you need to download and install the latest SDK platform. You do this by using the Android SDK and AVD Manager that you installed in the previous section.
 
 1. Open the **Android SDK Manager** window:
 

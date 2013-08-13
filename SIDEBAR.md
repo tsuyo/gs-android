@@ -1,14 +1,14 @@
-### Related Resources
+## Related resources
 
-Setting up the Android development environment is just one facet of the Android development story. You may want to continue your exploration of Android application development and mobile application development with the following
+Setting up the Android development environment is just one facet of the Android development story. You can continue to explore Android application development and mobile application development with the following resources.
 
-### Getting Started Guides
+### Getting Started guides
 
-* [Consuming RESTful Web Services on Android][gs-consuming-rest-android]
-* [Consuming XML From a RESTful Web Service on Android][gs-consuming-rest-xml-android]
-* [Device Detection][gs-device-detection]
-* [Building Android Applications with Maven][gs-maven-android]
-* [Building Android Applications with Gradle][gs-gradle-android]
+* [Consuming RESTful Web Services with Spring for Android][gs-consuming-rest-android]
+* [Consuming XML from a RESTful Web Service with Spring for Android][gs-consuming-rest-xml-android]
+* [Detecting a Device][gs-device-detection]
+* [Building Android Projects with Maven][gs-maven-android]
+* [Building Android Projects with Gradle][gs-gradle-android]
 
 [gs-consuming-rest-android]: /guides/gs/consuming-rest-android/
 [gs-consuming-rest-xml-android]: /guides/gs/consuming-rest-xml-android/
@@ -22,7 +22,7 @@ Setting up the Android development environment is just one facet of the Android 
 
 [tut-rest]: /guides/tutorials/rest
 
-### Understanding
+### Concepts and technologies
 
 * [REST][u-rest]
 * [JSON][u-json]
