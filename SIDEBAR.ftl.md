@@ -27,5 +27,5 @@ Setting up the Android development environment is just one facet of the Android 
 * [REST][u-rest]
 * [JSON][u-json]
 
-[u-rest]: /understanding/REST
-[u-json]: /understanding/JSON
+<@u_rest/>
+<@u_json/>
