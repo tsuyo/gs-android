@@ -66,7 +66,7 @@ NOTE: If this command does not open the *Android SDK Manager*, then your path is
 
 **2.** Select the **Tools** checkbox.
 
-**3.** Select the checkbox for the **latest Android SDK**, Android 4.2.2 (API Level 17) as of this writing.
+**3.** Select the checkbox for the **latest Android SDK**, Android 4.4.2 (API Level 19) as of this writing.
 
 **4.** From the **Extras** folder, select the checkbox for the **Android Support Library**.
 
@@ -80,10 +80,10 @@ NOTE: You may want to install all the available updates, but be aware it will ta
 If you do not have an Android device for testing, you can use an Android virtual device.To do this, you must first install the Android SDK and install the corresponding SDK platforms and packages. See <<android-dev-env>>.
 
 
-This command creates a new AVD named "Default" that is based on Android 4.2.2, API Level 17:
+This command creates a new AVD named "Default" that is based on Android 4.4.2, API Level 19:
 
 ----
-android create avd --name Default --target 29 --abi armeabi-v7a
+android create avd --name Default --target android-19 --abi armeabi-v7a
 ----
 
 As an alternative you may also use the android GUI tool to create an AVD.
@@ -103,13 +103,13 @@ android list target
 You can see that the target value of "29" is associated with Android 4.2.2. Note the three ABIs (CPUs) available for this target ID. The command used earlier to create the AVD specified an ARM CPU.
 
 ....
-       id: 29 or "android-17"
-     Name: Android 4.2.2
+       id: 19 or "android-19"
+     Name: Android 4.4.2
      Type: Platform
-API level: 17
- Revision: 2
+API level: 19
+ Revision: 3
     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
-    ABIs : armeabi-v7a, mips, x86
+Tag/ABIs : default/armeabi-v7a, default/x86
 ....
 
 View the list of available AVDs with this command:
@@ -121,11 +121,11 @@ android list avd
 Here is the AVD that was just created:
 
 ....
-  Name: Default
-  Path: /Users/{user}/.android/avd/Default.avd
-Target: Android 4.2.2 (API level 17)
-   ABI: armeabi-v7a
-  Skin: WVGA800
+   Name: Default
+   Path: /Users/{user}/.android/avd/Default.avd
+ Target: Android 4.4.2 (API level 19)
+Tag/ABI: default/armeabi-v7a
+   Skin: WVGA800
 ....
 
 
