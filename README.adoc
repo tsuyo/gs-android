@@ -100,7 +100,7 @@ This command displays a list of available targets. Use these targets to create d
 android list target
 ----
 
-You can see that the target value of "29" is associated with Android 4.2.2. Note the three ABIs (CPUs) available for this target ID. The command used earlier to create the AVD specified an ARM CPU.
+You can see that the target value of "19" is associated with Android 4.2.2. Note the three ABIs (CPUs) available for this target ID. The command used earlier to create the AVD specified an ARM CPU.
 
 ....
        id: 19 or "android-19"
